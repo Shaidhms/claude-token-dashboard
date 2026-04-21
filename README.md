@@ -1,11 +1,5 @@
 # Token Dashboard
 
-> **Note:** This repository is a personal local copy that I (Shaid) built just to test and learn from. It is **not** an actively maintained fork.
->
-> The original project is by **Nate Herk** (Nathan Herkelman) — a huge thank you to him for his tutorials that make learning AI genuinely easier and more accessible.
->
-> **If you want to fork, contribute, or open issues, please use the original repository:** [github.com/nateherkai/token-dashboard](https://github.com/nateherkai/token-dashboard)
-
 A local dashboard that reads the JSONL transcripts Claude Code writes to `~/.claude/projects/` and turns them into per-prompt cost analytics, tool/file heatmaps, subagent attribution, cache analytics, project comparisons, and a rule-based tips engine.
 
 **Everything runs locally.** No data leaves your machine — no telemetry, no API calls for your data, no login.
@@ -143,3 +137,9 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md). Short version: fork, `python3 -m unitt
 ## License
 
 [MIT](LICENSE).
+
+> **Note:** This repository is a personal local copy that I (Shaid) built just to test and learn from. It is **not** an actively maintained fork.
+>
+> The original project is by **Nate Herk** (Nathan Herkelman) — a huge thank you to him for his tutorials that make learning AI genuinely easier and more accessible.
+>
+> **If you want to fork, contribute, or open issues, please use the original repository:** [github.com/nateherkai/token-dashboard](https://github.com/nateherkai/token-dashboard)
