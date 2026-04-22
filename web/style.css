@@ -1,17 +1,17 @@
 :root {
-  --bg:        #0A0E14;
-  --panel:     #0F1419;
-  --panel-2:   #131922;
-  --border:    #1F2630;
-  --border-2:  #283040;
-  --text:      #E6EDF3;
-  --muted:     #8B98A6;
-  --muted-2:   #5A6573;
-  --accent:    #4A9EFF;
-  --accent-2:  #7C5CFF;
-  --good:      #3FB68B;
-  --warn:      #E8A23B;
-  --bad:       #E5484D;
+  --bg:        #FAFAFA;
+  --panel:     #FFFFFF;
+  --panel-2:   #F3F4F6;
+  --border:    #E5E7EB;
+  --border-2:  #D1D5DB;
+  --text:      #111827;
+  --muted:     #6B7280;
+  --muted-2:   #9CA3AF;
+  --accent:    #2563EB;
+  --accent-2:  #7C3AED;
+  --good:      #059669;
+  --warn:      #D97706;
+  --bad:       #DC2626;
   --mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Consolas, monospace;
   --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
 }
@@ -186,14 +186,14 @@ body.privacy-on .blur-sensitive { filter: blur(6px); }
 
 /* first-run modal */
 .modal-overlay {
-  position: fixed; inset: 0; background: rgba(10,14,20,0.85);
+  position: fixed; inset: 0; background: rgba(17,24,39,0.35);
   display: grid; place-items: center; z-index: 50;
   backdrop-filter: blur(8px);
 }
 .modal {
   background: var(--panel); border: 1px solid var(--border-2);
   border-radius: 12px; padding: 24px; max-width: 460px;
-  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+  box-shadow: 0 20px 60px rgba(0,0,0,0.12);
 }
 .modal h2 { margin: 0 0 8px; }
 .modal p { color: var(--muted); margin: 0 0 16px; }
